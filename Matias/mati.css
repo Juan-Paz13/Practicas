@@ -1,0 +1,96 @@
+body {
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/fondo-768x508.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#titulo1{
+    background-color:powderblue;
+    border-style: ridge;
+    border-width: 2px;
+    margin-right: 75%;
+    flex-direction: column;
+    min-width: 350px;
+}
+#titulo2{
+    background-color:Orange;
+    border-style: ridge;
+    border-width: 2px;
+    margin-right: 64%;
+    flex-direction: column;
+    min-width: 350px;
+    
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    padding:1px;
+    color: white;
+}
+ul{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+
+}
+li{
+    margin: 10px;
+    margin-left: 0,5%;
+    color: white;
+    flex-direction: column;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imagen1{
+    height: 250px;
+    width:300px;
+    border-radius: 50px;
+    margin-left:40%;
+    margin: 50px;
+    border: 5px solid;
+    border-color:rgb(100, 114, 237);
+
+}
+.imagen11{
+    height: 250px;
+    width:300px;
+    border-radius: 50px;
+    margin-left:25%;
+    margin: 50px;
+    transform: scaleX(-1);
+    border: 5px solid;
+    border-color:rgb(100, 114, 237);
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imagen2{
+    height: 250px;
+    width:300px;
+    border-radius: 50px;
+    margin-left:40%;
+    margin: 50px;
+    border: 5px solid;
+    border-color:rgba(255, 166, 0, 0.952);
+
+}
+.imagen12{
+    height: 250px;
+    width:300px;
+    border-radius: 50px;
+    margin-left:25%;
+    margin: 50px;
+    border: 5px solid;
+    border-color:rgba(255, 68, 0, 0.89);
+}
+   
+button{
+    display: flex;
+    margin-left: 50%;
+
+}
